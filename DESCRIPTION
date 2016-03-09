@@ -1,0 +1,10 @@
+Package: Rtbase
+Title: The resource and base package for the Rterial R libraries
+Version: 0.0.0.9000
+Authors@R: Carl Boneri <carl.boneri@fas-advisory.com> [aut, cre]
+Description: This package will contain the base configurations, scripts and data structures as well as Resource files and parsers for scaling widgets or reproducing new packages. It's meant to serve as a universal library to build additional libraries on top of.
+Depends: R (>= 3.1.2)
+License: MIT + file LICENSE
+Suggests: bitops, curl, DBI, devtools, digest, dplyr, htmltools, htmlwidgets, httpuv, httr, jsonlite, knitr, magrittr, memoise, mime, plyr, R6, Rcpp, RCurl, rdrop2, reshape2, roxygen2, rstudio, rstudioapi, rvest, shiny, stringi, stringr, xtable
+LazyData: true
+URL: https://github.com/CarlBoneri/Rtbase

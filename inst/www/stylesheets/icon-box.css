@@ -1,0 +1,27 @@
+.icon-box{
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    outline: 0;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.icon-box {
+    box-shadow: none;
+    background-color: transparent;
+    color: #343434;
+    cursor: pointer;
+}
+.icon-box.disabled {
+    color: #b3b3b3;
+    cursor: default;
+}
+    .icon-box i {
+    font-size: 1.3rem;
+    line-height: inherit;
+}
