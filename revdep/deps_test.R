@@ -1,7 +1,8 @@
-depends_tests <- function (unlist, as.character, .GlobalEnv, row.names) {
+depends_tests <- function () {
   # Test 
   # 
-  css_is_live <- function(){
+  mtrl <<- new.env()
+  assign('css_is_live', function(){
     
     var_paths <- list("css/materialize.min.css", "js/materialize.min.js")
     
@@ -20,9 +21,9 @@ depends_tests <- function (unlist, as.character, .GlobalEnv, row.names) {
             )
         ) > 1)
     )
-  }
+  },envir = mtrl)
   
-  mtrl_is_live <- function(){
+  assign('mtrl_is_live',function(){
     
     
     srcs_rds <- list("mtrl_icons.rds", "mtrl_colors.rds", 
@@ -51,16 +52,19 @@ depends_tests <- function (unlist, as.character, .GlobalEnv, row.names) {
             envir = .GlobalEnv)
         )
         invisible()
+      
       }
       
     }
     
-  }
+  },envir = mtrl)
   
-  repo_is_local <- function(){
+  assign('repo_is_local',function(){
     aa <- installed.packages() %>% row.names
     bb <- list.files(Sys.getenv("R_LIBS_USER"))
     bb[is.na(match(bb,aa))]
-  }
+  },envir = mtrl)
+  
+  do.call("mtrl_is_live",list(),envir = mtrl)
 }
 
