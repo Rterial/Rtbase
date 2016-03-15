@@ -25,7 +25,7 @@ rt.tbl <- function(df){
     ldply(1:nrow(df),function(i)paste0("<td>",df[i,],"</td>"))
   
   tmp.dd <- tags$div(class="col s4",
-                     tags$a(class='dropdown-button btn',
+                     tags$a(class='dropdown-button btn',`data-beloworigin`="true",
                             href='#',`data-activates`='dropdown1',"DROP"),
                      tags$ul(id='dropdown1',class='dropdown-content',
                              tags$li(tags$a(href="#!",'one')),
@@ -40,7 +40,7 @@ rt.tbl <- function(df){
   tbodied <- 
     paste0("<tbody>",
            unlist(
-             llply(1:nrow(prep.tbody),function(xx)
+             llply(1:10,function(xx)
                paste0(c("<tr>",prep.tbody[xx,],"</tr>")
                       )
                )
@@ -49,15 +49,32 @@ rt.tbl <- function(df){
            "</tbody>", 
            sep="")
   
-  tfoots <- paste0("<tfoot style='height:600px;overflow:visible;'><tr>",
-                   '<td>',rt.sel(main_label= "HI",
+  tfoots <- paste0("<tfoot style='overflow:visible;'>",
+                   "<tr style='height:150px;margin-bottom:50px;'>",
+                   '<td>',rt.sel(main_label= "<i class='material-icons'>search</i>",
                           rt.opt(val = AB$vals,label=AB$labs)),
                    '</td>',"<td>",tmp.dd,"</td>",
                    "</tr></tfoot>")
   
-  sprintf('<table class="striped highlight">%s</table>',
-          paste0(theads,tfoots,tbodied,collapse = ""))
-  
+  HTML(paste0("<div class='card'>",
+           "<div class='card-content'>",
+                    HTML(sprintf('<table class="striped highlight">%s</table>',
+                            paste0(theads,tbodied,collapse = ""))),
+           "</div>",
+           "<div class ='card-action'>",
+           '<div class="row">',
+           '<div class="col s4 offset-s2">',
+           rt.sel(main_label= "<i class='material-icons'>search</i>",
+                  rt.opt(val = AB$vals,
+                         label=AB$labs)),
+           "</div>",
+           "<div class='col s3 offset-s9'>",
+           tmp.dd,
+           "</div>
+           </div>
+           </div>
+           </div>",collapse = ""))
+                      
 }
 
 rt.opt <- function(label,val){
@@ -66,7 +83,7 @@ rt.opt <- function(label,val){
 }
 rt.sel <- function(main_label,...){
   sprintf(
-    '<div class="input-field col s3">\n<select>%s</select><label>%s</label></div>',
+    '<div class="input-field col s8">\n<select><option value="" disabled selected>Choose your option</option>\n%s</select><label>%s</label></div>',
     ...,main_label)%>%HTML
 }
 rt.template <- function(...){
@@ -86,7 +103,7 @@ rt.template <- function(...){
                         constrain_width: true,
                         hover: true, 
                         gutter: 0, 
-                        belowOrigin: false, 
+                        belowOrigin: true, 
                         alignment: 'left'
                       });
                     });"))),
