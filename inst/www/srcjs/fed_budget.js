@@ -60,7 +60,7 @@ function main() {
 
     var nodeRadius;
 
-    d3.csv("inst/data/FederalBudget_2013.csv", function (csv) {
+    d3.csv("https://raw.githubusercontent.com/Rterial/Rtbase/master/inst/data/FederalBudget_2013.csv", function (csv) {
 
         var data = [];
 
