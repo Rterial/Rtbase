@@ -1,11 +1,59 @@
-# ---- test-a ----
-
+#' Convert a vector or string into pure html encoded output.
+#'
+#' \code{pure.html}
+#'
+#' @family Web Helpers
+#'
+#' @export
 pure.html <- function (text, ...) {
   htmlText <- c(text, as.character(list(...)))
   htmlText <- paste(htmlText, collapse = " ")
   attr(htmlText, "html") <- TRUE
   class(htmlText) <- c("html", "character")
   htmlText
+}
+
+
+
+
+
+#' Reference for escape charset tables
+#'
+#' \url{"http://www.theukwebdesigncompany.com/articles/entity-escape-characters.php}
+#'
+#' @return
+#' dataframe with Symbol - Code - Entity Name
+#'
+#' data also stored in
+#'
+#' paste(dirs.r_home('shiny-server/shinyone'),
+#' c("/inst/data/escape_char.html",
+#' "/inst/data/escape_char.json"),
+#' sep = "")
+#'
+#'
+escape.html_tbl <- function(){
+  rel_base <-
+    paste0('http://www.theukwebdesigncompany.com/articles/',
+           'entity-escape-characters.php',
+           collapse = "")
+
+  (html(rel_base) %>%
+     html_table)[[1]]
+
+}
+
+
+
+
+escape.html <- function(text){
+      a <- gsub('&', '&amp;',text)
+      b <- gsub('<', '&lt;',a)
+      c <- gsub('>', '&gt;',b)
+      d <- gsub("'", '&#39;',c)
+      e <- gsub('"', '&quot;',d)
+      f <- gsub(' ',"&nbsp;")
+      e
 }
 # ---- test-b ----
 
@@ -50,7 +98,7 @@ mtrl.tag_src <- function(){
 
 tag.rgx <- function(x){
   if(is.tag_solo(x)){
-    sprintf("<%s\\b[^>]*>(.*?)/>",x)
+    sprintf("<%s (\\S+)=[\"']?((?:.(?![\"']?\\s+(?:\\S+)=|[>\"']))+.)[\"']? />",x)
   }else{
     sprintf("<%s\\b[^>]*>(.*?)</%s>",x,x)
   }
@@ -127,3 +175,4 @@ mtrl.tag_inners <- function(...){
 #'                style="height:15px;background-color:black",
 #'                mtrl.valid_tag("img",c(src=B))))%>%html_print
 #'
+mtrl.tag_src()
