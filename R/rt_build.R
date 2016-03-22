@@ -1,7 +1,6 @@
 #' Universal constants for package development
 #'
 #' \code{rt.check_scaffold}
-#' This step sets up a consistent directory structure
 #'
 rt.scaffold <- function(){
 
@@ -9,7 +8,7 @@ rt.scaffold <- function(){
     list(
       inst = list(
         www = list('style','js','images','templates'),
-        shiny = list('templates','ace','frangments'),
+        shiny = list('templates','ace','fragments'),
         examples = list(''),
         data = list('style_tables','index_tables')),
       revdep = list(
@@ -45,10 +44,6 @@ rt.scaffold <- function(){
 #'
 #' \code{rt.setup}
 #'
-#'This will import the necessary files from alternate resources into the new
-#' directory.
-#'
-#'
 rt.setup <- function(){
 
   if(!file.exists('inst')){
@@ -59,10 +54,17 @@ rt.setup <- function(){
   rds_base <-
     lapply(rt_res,function(i)
       curl::curl_download(
-        sprintf("https://github.com/CarlBoneri/RtAce/blob/master/inst/data/%s?raw=true",i),
+        sprintf("https://github.com/Rterial/Rtbase/blob/master/inst/data/%s?raw=true",i),
         sprintf('inst/data/style_tables/%s',i)
     ))
-
+  # now load into the workspace
+  lapply(rt_res,function(i)
+    assign(gsub('.rds','',i),
+           readRDS(
+             sprintf('inst/data/style_tables/%s',i)
+             ),
+           envir = .GlobalEnv)
+  )
   r_rt_res <- list("MTRL_TAGS.R","MTRL_TABLE.R","MTRL_COLORS.R")
 
   rt_html_r <-
@@ -72,7 +74,8 @@ rt.setup <- function(){
            ) %>% paste0(collapse = "\n") %>% HTML %>% write(paste0('R/',i))
     )
 
-
+  # Now source the functions into the environment
+  lapply(paste0("R/",r_rt_res),source)
 
   cp.file_types <- list(".html",".js",".css")
   rt_todo <-
@@ -83,7 +86,8 @@ rt.setup <- function(){
           write(paste0("inst/www/templates/todo/todo_app",i))
       )
     )
-  rt_todo <-
+
+  rt_datatable <-
     suppressWarnings(
       lapply(cp.file_types,function(i)
         sprintf("http://codepen.io/CarlBoneri/pen/zqZYqR%s",i) %>%
