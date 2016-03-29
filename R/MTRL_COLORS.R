@@ -229,3 +229,20 @@ mtrl.css_opacity <- function(color_name = NULL,color_value = NULL,opacity = NULL
 mtrl.hex_to_opace <- function(hex = NULL,opacity = 0.5){
   paste0("rgba(",paste0(col2rgb(hex),collapse = ","),",",opacity,")")
 }
+
+
+
+
+
+#' Display the color pallets at the console
+#' 
+mtrl.show_colors <- function(){
+tagList(tags$link(href = "http://www.google.com/design/spec/static/sites/spec/css/color-palettes.css",rel = "stylesheet"),
+HTML(llply(res$content%>%rawToChar %>% paste0(collapse = "") %>% 
+stri_replace_all_regex('  |\n','') %>% unlist %>%
+as.character %>% paste0(collapse = "") %>% pure.html %>% 
+stri_extract_all_regex(tag.rgx('section')),function(i)
+i[grep('color-group',i)])[[1]] %>% 
+paste0(collapse = "")))%>%html_print
+
+}
