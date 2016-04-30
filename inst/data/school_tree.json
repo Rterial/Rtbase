@@ -1,0 +1,1059 @@
+     {
+    "name": "UC Berkeley",
+    "class": "source",
+    "children": [
+        {
+            "name": "College of Letters & Sciences",
+            "class": "target",
+            "size": 1,
+            "color": null,
+            "label": null
+        },
+        {
+            "name": "Colleges",
+            "class": "target",
+            "size": 1,
+            "color": null,
+            "label": null,
+            "children": [
+                {
+                    "name": "College of Environmental Design",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "College of Chemistry",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "College of Engineering",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "College of Natural Resources",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                }
+            ]
+        },
+        {
+            "name": "Schools",
+            "class": "target",
+            "size": 1,
+            "color": null,
+            "label": null,
+            "children": [
+                {
+                    "name": "Boalt School of Law",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "Goldman School of Public Policy",
+                    "class": "target pilot",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "Haas School of Business",
+                    "class": "target pilot",
+                    "size": 1,
+                    "color": null,
+                    "label": null,
+                    "children": [
+                        {
+                            "name": "Haas Centers and Institutes",
+                            "class": "target",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "Teachng Research Outreach",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Haas Core Programs",
+                            "class": "target",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "Administration",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Degree Programs",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Instruction Support",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "External Engagement",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Research",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "School of Optometry",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "School of Public Health",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "Graduate School of Education",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "School of Information",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                }
+            ]
+        },
+        {
+            "name": "Other Academic",
+            "class": "target",
+            "size": 1,
+            "color": null,
+            "label": null,
+            "children": [
+                {
+                    "name": "UC Library",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "Cal Performances",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "Office for the Faculty",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "Art Mus & Pacific Film Archive",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "Academic Senate",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "Summer Sessn - Study Abrd - OLLI",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "University Extension",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "Tch Lrn Acad Plan & Fac",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "Graduate Division",
+                    "class": "target pilot",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "Academic Core",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                }
+            ]
+        },
+        {
+            "name": "Research Policy Planng & Adm",
+            "class": "target",
+            "size": 1,
+            "color": null,
+            "label": null
+        },
+        {
+            "name": "Campus Support",
+            "class": "target",
+            "size": 1,
+            "color": null,
+            "label": null,
+            "children": [
+                {
+                    "name": "Administration & Finance",
+                    "class": "target pilot",
+                    "size": 1,
+                    "color": null,
+                    "label": null,
+                    "children": [
+                        {
+                            "name": "Info Services & Technology",
+                            "class": "target",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "Architectr Platform Integratn",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Social Science Computing Lab",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Info Svcs & Tech Imm Office",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Office of the Deputy CIO",
+                                    "class": "target",
+                                    "size": 2,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Research Information",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "TelComm",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Enterprise Data Services",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Enterprise Application Service",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Shared Services",
+                            "class": "target pilot",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "CSS Research Support Org",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "SharedServices Human Resource",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "SharedServices Research Admin",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "SharedSvcs Admin-Immed Ofc",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "SharedServices Finance-BusSrv",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "SharedServices Info Technol",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intercollegiate Athletics",
+                            "class": "target",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "Women's Basketball",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Other Women's Sports",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Men's Basketball",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Athletics Non-Program Specific",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Other Men's Sports",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Football",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Human Resources Admnistration",
+                            "class": "target",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "Human Resources",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "COrWE",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "HR Center- Administration",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Business & Adminitrative Svcs",
+                            "class": "target pilot",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "FEPRO Procurement Services",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Student Health Insurance Plan",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "University Police",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Parking & Transportation",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Recreational Sports",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Property Mngt & Library Bindery",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Business Contracts & Brand Protection",
+                                    "class": "target pilot",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Environment Health & Safety",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "University Health Services",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "BAS Immediate Office",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Finance",
+                            "class": "target pilot",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "Space and Capital Resources",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Planning & Analysis Office",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Controllers Office",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Finance Immediate Office",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Budget Office",
+                                    "class": "target pilot",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Admin & Finance Office",
+                            "class": "target",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "Admin & Finance Immediate Off",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Online Ed Initiative",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Sustainability Office",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Op Excellence- Project Office",
+                                    "class": "target pilot",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "International House",
+                            "class": "target",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "International House-L5",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                                {
+                    "name": "Student Affairs",
+                    "class": "target pilot",
+                    "size": 1,
+                    "color": null,
+                    "label": null,
+                    "children": [
+                        {
+                            "name": "Housing & Dining Services",
+                            "class": "target pilot",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "UKHDS CR Cal Athletics",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Budget & Financial Plan",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Vending Operations",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "H&DS Central Admin",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null,
+                                    "children": [
+                                        {
+                                            "name": "H&DS Child Care Services-L5",
+                                            "class": "target",
+                                            "size": 1,
+                                            "color": null,
+                                            "label": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Cal Housing",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Res & Family Living",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Marketing",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Housing & Dining Svcs Imm Off",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Human Resources",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "HOMe Central",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Housing & Dining",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "H&DS Single Facilities",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "H & DS Apartment Facilities",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "HOMe Grounds Central",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Conferences",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Dining Service Restaurants",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "UKHDS Catering",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "H&DS Dining Service Units",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Information Systems",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "SA Admissions & Enrollment",
+                            "class": "target pilot",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "Cal Student Central",
+                                    "class": "target pilot",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Admissions & Rel with Schs",
+                                    "class": "target pilot",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "FASO Student Financial Aid",
+                                    "class": "target pilot",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Admiss & Enroll Immed Ofc",
+                                    "class": "target pilot",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Financial Aid Office",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Office of the Registrar",
+                                    "class": "target pilot",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Student Affairs- Developmt Off",
+                            "class": "target pilot",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "StudentAffairs-Develpmt Off-L5",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Student Affairs Immed Off",
+                            "class": "target pilot",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "Student Affairs Discretionary",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Student Affairs Immed Off",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "SAIT Information Tech",
+                            "class": "target pilot",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "SAIT Information Tech-L5",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Lawrence Hall of Science",
+                            "class": "target pilot",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "LHS Public Progs",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "LHS School Progs",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "LHS Other",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "LHS Curriculum Dev",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "LHS Admin",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LBNL Guest House",
+                            "class": "target",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "LBNL Guest House-L5",
+                                    "class": "target",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Dean of Students",
+                            "class": "target pilot",
+                            "size": 1,
+                            "color": null,
+                            "label": null,
+                            "children": [
+                                {
+                                    "name": "Dean of Student Centers",
+                                    "class": "target pilot",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "ASUC Business Auxiliary",
+                                    "class": "target pilot",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "New Student Services",
+                                    "class": "target pilot",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                },
+                                {
+                                    "name": "Career Center",
+                                    "class": "target pilot",
+                                    "size": 1,
+                                    "color": null,
+                                    "label": null
+                                }
+                            ]
+                        }
+                    ]
+                },            
+                {
+                    "name": "Campus Support Core",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "University Relations",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "Equity & Inclusion Div",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                },
+                {
+                    "name": "Facilities Services",
+                    "class": "target",
+                    "size": 1,
+                    "color": null,
+                    "label": null
+                }
+            ]
+        },
+        {
+            "name": "Non UCB Operations",
+            "class": "target",
+            "size": 1,
+            "color": null,
+            "label": null
+        },
+        {
+            "name": "UCB Foundation",
+            "class": "target",
+            "size": 1,
+            "color": null,
+            "label": null
+        },
+        {
+            "name": "Central Ledger",
+            "class": "target",
+            "size": 1,
+            "color": null,
+            "label": null
+        }
+    ]
+}
