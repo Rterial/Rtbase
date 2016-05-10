@@ -1,0 +1,79 @@
+.material_design {
+    color: #00bcd4;
+}
+
+.material_design.introduction {
+    color: #18ffff;
+}
+
+.what_is_material {
+    color: #039be5;
+}
+
+.what_is_material.elevation-shadows {
+    color: #40c4ff;
+}
+
+.animation {
+    color: #8e24aa;
+}
+
+.animation.delightful-details {
+    color: #e040fb;
+}
+
+.style {
+    color: #00897b;
+}
+
+.style.writing {
+    color: #64ffda;
+}
+
+.layout {
+    color: #ad1457;
+}
+
+.layout.split-screen {
+    color: #ff4081;
+}
+
+.components {
+    color: #3949ab;
+}
+
+.components.tooltips {
+    color: #536dfe;
+}
+
+.patterns {
+    color: #fb8c00;
+}
+
+.patterns.swipe-to-refresh {
+    color: #ffab40;
+}
+
+.usability {
+    color: #7cb342;
+}
+
+.usability.bidirectionality {
+    color: #76ff03;
+}
+
+.resources {
+    color: #ffb300;
+}
+
+.resources.sticker-sheets-icons {
+    color: #ffd740;
+}
+
+.whats_new {
+    color: #c0ca33;
+}
+
+.whats_new.whats-new {
+    color: #c6ff00;
+}
